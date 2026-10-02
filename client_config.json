@@ -1,0 +1,52 @@
+{
+  "server_urls": [
+    "https://124.221.15.72:8443"
+  ],
+  "pinned_keys": [
+    "d5s6iWq2zAK9blx7TQ9ShxwvBPesjflpBnihMBeAbNo="
+  ],
+  "product": "pubgai",
+  "tls_verify": false,
+  "connect_ip": "",
+  "proxy": "",
+  "use_system_proxy": true,
+  "enforce_online": false,
+  "hwid_mode": "auto",
+  "payload_path": "PUBGAI.Start.exe",
+  "payload_args": [],
+  "payload_cwd": "",
+  "close_payload_on_exit": false,
+  "auto_login": true,
+  "allow_new_key": false,
+  "window_title": "PUBGAI 卡密登录器",
+  "heartbeat_floor_sec": 60,
+  "remember_card": true,
+  "request_timeout_sec": 8,
+  "request_retries": 1,
+  "single_instance": true,
+  "login_watchdog_sec": 20,
+  "local_payload": {
+    "enabled": false
+  },
+  "cloud_payload": {
+    "enabled": false,
+    "output": "AI.exe",
+    "args": [],
+    "cleanup": true
+  },
+  "encrypted_payload": {
+    "enabled": false
+  },
+  "legacy_token": {
+    "enabled": true,
+    "write_to": "state/license.token",
+    "source_field": "legacy_token"
+  },
+  "core_launcher": {
+    "enabled": true,
+    "port": 8765,
+    "write_server_file": "license-server.txt",
+    "cleanup_core_on_exit": true,
+    "fallback_to_stub": true
+  }
+}
